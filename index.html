@@ -1,56 +1,174 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PATNAM BALA ADHITHYA | Portfolio</title>
+  <title>PATNAM BALA ADHITHYA | Mechanical Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #111;
-      color: white;
+    * {
       margin: 0;
-      padding: 40px;
+      padding: 0;
+      box-sizing: border-box;
     }
-    h1 { font-size: 48px; }
-    section { margin-bottom: 50px; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #111, #1c1c1c);
+    }
+
+    header h1 {
+      font-size: 48px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 20px;
+      color: #00bcd4;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-left: 4px solid #00bcd4;
+      padding-left: 10px;
+    }
+
     .card {
-      background: #1c1c1c;
-      padding: 20px;
+      background: #1a1a1a;
+      padding: 25px;
       border-radius: 12px;
       margin-top: 20px;
+      transition: 0.3s ease;
+      border: 1px solid #2a2a2a;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #00bcd4;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 15px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "⚙";
+      position: absolute;
+      left: 0;
+      color: #00bcd4;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #00bcd4;
+      color: black;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #0097a7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media(max-width: 768px) {
+      header h1 { font-size: 32px; }
+      section { padding: 40px 5%; }
     }
   </style>
 </head>
+
 <body>
 
-  <h1>PATNAM BALA ADHITHYA</h1>
-  <h2>Mechanical Designer | Autodesk Fusion Specialist</h2>
+  <header>
+    <h1>PATNAM BALA ADHITHYA</h1>
+    <p>Mechanical Designer | Autodesk Fusion Specialist</p>
+  </header>
 
-  <section class="card">
+  <section>
     <h2>About Me</h2>
-    <p>
-      I am a passionate Mechanical Designer specializing in 3D modeling,
-      product design and technical drafting. I received the Best Designing Award
-      for excellence in Autodesk Fusion.
-    </p>
+    <div class="card">
+      <p>
+        Passionate Mechanical Designer specializing in Product Design,
+        3D Modeling, Rendering and Technical Drafting.
+        Awarded Best Designing Award for excellence in Autodesk Fusion.
+      </p>
+    </div>
   </section>
 
-  <section class="card">
+  <section>
     <h2>Skills</h2>
-    <ul>
-      <li>Autodesk Fusion</li>
-      <li>Product Design</li>
-      <li>Rendering</li>
-      <li>Technical Drafting</li>
-      <li>HR Management</li>
-      <li>Leadership</li>
-    </ul>
+    <div class="card">
+      <ul>
+        <li>Autodesk Fusion</li>
+        <li>Product Design</li>
+        <li>Rendering</li>
+        <li>Technical Drafting</li>
+        <li>HR Management</li>
+        <li>Leadership</li>
+      </ul>
+    </div>
   </section>
 
-  <section class="card">
-    <h2>Contact</h2>
-    <p>Email: patnambalaadhithya05@gmail.com</p>
+  <section>
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Project Name</h3>
+      <p><strong>Problem:</strong> Describe the challenge.</p>
+      <p><strong>Design Process:</strong> Concept → Modeling → Optimization → Rendering</p>
+      <p><strong>Tools Used:</strong> Autodesk Fusion</p>
+    </div>
   </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <div class="card">
+      🏆 Best Designing Award – Autodesk Fusion
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: patnambalaadhithya05@gmail.com</p>
+      <a href="#" class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 PATNAM BALA ADHITHYA | Mechanical Designer
+  </footer>
 
 </body>
 </html>
-
