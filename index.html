@@ -3,56 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Patnam Bala Adhithya | Mechanical Designer Portfolio</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
-body{font-family:'Inter',sans-serif;background:#0f172a;color:white;}
-
-nav{
-position:fixed;width:100%;padding:18px 8%;
-display:flex;justify-content:space-between;align-items:center;
-background:rgba(2,6,23,0.8);backdrop-filter:blur(10px);z-index:1000;
-}
-nav h2{color:#38bdf8;}
-nav a{color:white;text-decoration:none;margin-left:20px;}
-nav a:hover{color:#38bdf8;}
-
-section{padding:110px 8%;min-height:100vh;}
-
-.hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;}
-.hero-text{flex:1;min-width:300px;}
-.hero-text h1{font-size:50px;}
-.highlight{color:#38bdf8;}
-.subtitle{margin-top:15px;color:#cbd5e1;}
-
-.buttons{margin-top:30px;}
-.btn{padding:12px 25px;border-radius:8px;text-decoration:none;font-weight:600;margin-right:12px;}
-.primary{background:#25D366;color:black;}
-.secondary{border:2px solid #38bdf8;color:#38bdf8;}
-.secondary:hover{background:#38bdf8;color:black;}
-
-.hero img{width:320px;border-radius:20px;box-shadow:0 0 40px rgba(56,189,248,0.4);}
-
-.section-title{font-size:32px;margin-bottom:40px;color:#38bdf8;}
-
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;}
-
-.card{background:#020617;padding:20px;border-radius:15px;}
-iframe{width:100%;height:420px;border:none;border-radius:12px;background:black;}
-
-footer{text-align:center;padding:30px;background:#020617;color:#94a3b8;}
-
-@media(max-width:768px){
-.hero{flex-direction:column;text-align:center;}
-.hero img{margin-top:40px;}
-}
-
-</style>
+<title>Patnam Bala Adhithya Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -60,20 +12,17 @@ footer{text-align:center;padding:30px;background:#020617;color:#94a3b8;}
 <nav>
 <h2>PB</h2>
 <div>
-<a href="#home">Home</a>
-<a href="#experience">Experience</a>
-<a href="#cad">CAD Models</a>
+<a href="index.html">Home</a>
+<a href="designs.html">Designs</a>
 <a href="#contact">Contact</a>
 </div>
 </nav>
 
-<!-- HERO -->
-<section id="home" class="hero">
-<div class="hero-text">
-<h1>Hi, I'm <span class="highlight">Patnam Bala Adhithya</span></h1>
-<p class="subtitle">Mechanical Designer • Autodesk Fusion Specialist</p>
+<section class="hero">
+<div>
+<h1>Patnam Bala Adhithya</h1>
+<p>Mechanical Designer | Autodesk Fusion Specialist</p>
 
-<div class="buttons">
 <a href="https://wa.me/918374024317?text=Hi%20I%20visited%20your%20portfolio" target="_blank" class="btn primary">
 Let's Connect
 </a>
@@ -81,69 +30,39 @@ Let's Connect
 <a href="resume.pdf" target="_blank" class="btn secondary">
 View Resume
 </a>
-</div>
+
 </div>
 
-<img src="DSC_3053.JPG" alt="Patnam Bala Adhithya">
+<img src="DSC_3053.JPG">
 </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
-<h2 class="section-title">Experience</h2>
+<section>
+<h2>Experience</h2>
 <div class="grid">
 
 <div class="card">
 <h3>Chief Partnership Officer</h3>
-<p>Learning Destiny Pvt. Ltd.</p>
-<p>Built corporate collaborations & growth partnerships.</p>
+<p>Learning Destiny Pvt Ltd</p>
 </div>
 
 <div class="card">
 <h3>Head of Operations</h3>
-<p>BLAKSPIRE Pvt. Ltd.</p>
-<p>Managed operations & strategic execution systems.</p>
+<p>BLAKSPIRE Pvt Ltd</p>
 </div>
 
 </div>
 </section>
 
-<!-- CAD MODELS -->
-<section id="cad">
-<h2 class="section-title">Fusion 360 Live Models</h2>
-
-<div class="grid">
-
-<div class="card">
-<iframe src="https://a360.co/44AivTs"></iframe>
-</div>
-
-<div class="card">
-<iframe src="https://a360.co/4cAJss8"></iframe>
-</div>
-
-<div class="card">
-<iframe src="https://a360.co/4reqiil"></iframe>
-</div>
-
-<div class="card">
-<iframe src="https://a360.co/42qFLC7"></iframe>
-</div>
-
-</div>
-</section>
-
-<!-- CONTACT -->
 <section id="contact">
-<h2 class="section-title">Contact</h2>
+<h2>Contact</h2>
 <div class="card">
 <p>📞 8374024317</p>
 <p>📧 patnambalaadhithya05@gmail.com</p>
-<p>LinkedIn: patnambalaadhithya</p>
 </div>
 </section>
 
 <footer>
-© 2026 Patnam Bala Adhithya Portfolio
+© 2026 Patnam Bala Adhithya
 </footer>
 
 </body>
