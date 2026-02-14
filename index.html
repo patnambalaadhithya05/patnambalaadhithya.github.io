@@ -1,88 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Patnam Bala Adhithya | Portfolio</title>
 
-<link rel="stylesheet" href="style.css">
+<title>Patnam Bala Adhithya | Mechanical Designer Portfolio</title>
+
+<meta name="description" content="Mechanical Designer & Autodesk Fusion 360 Specialist Portfolio of Patnam Bala Adhithya. Product design, rendering, and engineering solutions.">
+<meta name="keywords" content="Mechanical Designer, Fusion 360, Product Design, CAD Portfolio, Engineering Projects">
+<meta name="author" content="Patnam Bala Adhithya">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+/* NAVBAR */
+nav{
+position:fixed;
+width:100%;
+top:0;
+background:#020617;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+nav h1{
+color:#38bdf8;
+font-size:22px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+nav a:hover{color:#38bdf8}
+
+/* HERO */
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:0 20px;
+background:linear-gradient(180deg,#020617,#0f172a);
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+max-width:700px;
+opacity:.8;
+margin-bottom:30px;
+}
+
+/* BUTTONS */
+.btn{
+padding:14px 28px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+margin:10px;
+display:inline-block;
+transition:.3s;
+}
+
+.primary{background:#38bdf8;color:#020617;}
+.primary:hover{background:#0ea5e9}
+
+.secondary{border:2px solid #38bdf8;color:#38bdf8}
+.secondary:hover{background:#38bdf8;color:#020617}
+
+/* SECTIONS */
+section{
+padding:100px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:34px;
+color:#38bdf8;
+}
+
+/* CARDS */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:#020617;
+padding:25px;
+border-radius:12px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+background:#020617;
+box-shadow:0 10px 25px rgba(56,189,248,.15);
+}
+
+.card a{
+color:#38bdf8;
+text-decoration:none;
+font-weight:600;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:40px;
+background:#020617;
+margin-top:50px;
+opacity:.7;
+}
+
+</style>
 </head>
 
 <body>
 
 <!-- NAVBAR -->
 <nav>
-<h2>PB</h2>
+<h1>Bala Adhithya</h1>
 <div>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="experience.html">Experience</a>
-<a href="designs.html">Designs</a>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Designs</a>
 <a href="#contact">Contact</a>
 </div>
 </nav>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <section class="hero">
+<h2>Hi, I'm <span>Patnam Bala Adhithya</span></h2>
+<p>Mechanical Designer | Autodesk Fusion 360 Specialist</p>
 
-<div class="hero-text">
-<h1>Patnam Bala Adhithya</h1>
-<h3>Mechanical Designer | Autodesk Fusion Specialist</h3>
+<div>
+<a href="https://wa.me/918374024317?text=Hi%20Adhithya%20I%20visited%20your%20portfolio" target="_blank" class="btn primary">Let's Connect</a>
 
-<p>
-Designing real-world mechanical solutions using precision CAD modelling and product engineering.
+<a href="YOUR_RAW_RESUME_LINK_HERE" target="_blank" class="btn secondary">Download Resume</a>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+
+<p style="text-align:center;max-width:800px;margin:auto;">
+I am Patnam Bala Adhithya, a Mechanical Engineering graduate and Autodesk Fusion 360 designer.
+I specialize in mechanical design, 3D modeling and product development.
+I am passionate about creating practical engineering solutions and continuously improving my
+technical skills through real-time projects and design practice.
 </p>
-
-<br>
-
-<a href="about.html" class="btn secondary">Know About Me</a>
-<a href="designs.html" class="btn secondary">View My Designs</a>
 
 <br><br>
 
-<a href="resume.pdf" target="_blank" class="btn primary">
-View Resume
-</a>
+<div class="grid">
 
-<a href="https://wa.me/918374024317?text=Hi%20I%20visited%20your%20portfolio" target="_blank" class="btn secondary">
-Contact on WhatsApp
-</a>
+<div class="card">Autodesk Fusion 360</div>
+<div class="card">Product Design</div>
+<div class="card">Rendering</div>
+<div class="card">Technical Drafting</div>
+<div class="card">HR Management</div>
+<div class="card">Leadership</div>
 
 </div>
+</section>
 
-<div class="hero-image">
-<img src="DSC_3053.JPG" alt="Patnam Bala Adhithya">
+<!-- EXPERIENCE -->
+<section id="experience">
+<h2>Experience</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Mechanical Designer</h3>
+<p>Worked on 3D modeling and product design using Autodesk Fusion 360, creating functional engineering components and assemblies.</p>
+</div>
+
+<div class="card">
+<h3>Team Leadership</h3>
+<p>Led project teams, coordinated workflows, and improved productivity in design and operations.</p>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Fusion 360 Designs</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Design 1</h3>
+<a href="https://a360.co/44AivTs" target="_blank">View 3D Model</a>
+</div>
+
+<div class="card">
+<h3>Design 2</h3>
+<a href="https://a360.co/4cAJss8" target="_blank">View 3D Model</a>
+</div>
+
+<div class="card">
+<h3>Design 3</h3>
+<a href="https://a360.co/4reqiil" target="_blank">View 3D Model</a>
+</div>
+
+<div class="card">
+<h3>Design 4</h3>
+<a href="https://a360.co/42qFLC7" target="_blank">View 3D Model</a>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+
+<div style="text-align:center;">
+<p>Email: patnambalaadhithya05@gmail.com</p>
+<p>WhatsApp: +91 8374024317</p>
 </div>
 
 </section>
 
-<!-- CONTACT SECTION -->
-<section id="contact" class="contact">
-
-<h2>Contact Me</h2>
-
-<p>If you'd like to collaborate or hire me, feel free to reach out.</p>
-
-<div class="contact-buttons">
-
-<a href="mailto:yourmail@gmail.com" class="btn primary">Email Me</a>
-
-<a href="https://wa.me/918374024317?text=Hello%20Adhithya" target="_blank" class="btn secondary">
-WhatsApp
-</a>
-
-<a href="resume.pdf" target="_blank" class="btn secondary">
-Download Resume
-</a>
-
-</div>
-
-</section>
-
-<!-- FOOTER -->
 <footer>
-<p>© 2026 Patnam Bala Adhithya | Mechanical Designer</p>
+© 2026 Patnam Bala Adhithya — Mechanical Designer Portfolio
 </footer>
 
 </body>
