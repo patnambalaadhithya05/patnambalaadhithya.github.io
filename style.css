@@ -1,74 +1,78 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter, sans-serif;
 }
 
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #0a0f1c;
-  color: #e5e7eb;
+body{
+background:#0f172a;
+color:white;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 10%;
-  background: #111827;
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#020617;
 }
 
-nav h3 {
-  color: #3b82f6;
+nav h2{color:#38bdf8;}
+nav a{color:white;text-decoration:none;margin-left:20px;}
+nav a:hover{color:#38bdf8;}
+
+section{padding:80px 8%;}
+
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between;
 }
 
-nav a {
-  color: #e5e7eb;
-  text-decoration: none;
-  margin-left: 20px;
-  transition: 0.3s;
+.hero img{
+width:320px;
+border-radius:20px;
+box-shadow:0 0 30px rgba(56,189,248,0.4);
 }
 
-nav a:hover {
-  color: #22d3ee;
+.btn{
+display:inline-block;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+margin-top:20px;
+margin-right:10px;
 }
 
-section {
-  padding: 80px 10%;
+.primary{background:#25D366;color:black;}
+.secondary{border:2px solid #38bdf8;color:#38bdf8;}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
 }
 
-h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+.card{
+background:#020617;
+padding:20px;
+border-radius:12px;
 }
 
-h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #3b82f6;
-  display: inline-block;
-  padding-bottom: 10px;
+iframe{
+width:100%;
+height:420px;
+border:none;
+border-radius:12px;
+background:black;
 }
 
-.card {
-  background: #111827;
-  padding: 30px;
-  border-radius: 15px;
-  margin-top: 20px;
-  border: 1px solid #1f2937;
-  transition: 0.3s;
+footer{
+text-align:center;
+padding:25px;
+background:#020617;
+margin-top:40px;
+color:#94a3b8;
 }
-
-.card:hover {
-  transform: translateY(-5px);
-  border-color: #3b82f6;
-}
-
-footer {
-  text-align: center;
-  padding: 40px;
-  background: #111827;
-  margin-top: 40px;
-  color: #6b7280;
-}
-
